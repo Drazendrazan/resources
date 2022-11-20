@@ -8,7 +8,7 @@ if IsDuplicityVersion() then
     Config = {}
     Config.__index = Config
 
-    Config.USE_ESX = true -- use ESX or not ?
+    Config.USE_ESX = false -- use ESX or not ?
     Config.club_price = 200 -- minigolf price
 else
     Config = {}
